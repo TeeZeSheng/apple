@@ -7,6 +7,7 @@ import Highlight from './components/Highlight'
 import Hero from './components/Hero'
 import Model from './components/Model'
 import VideoCarousel from './components/VideoCarousel'
+import Features from './components/Features'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
       <Highlight />
       <VideoCarousel />
       <Model />
+      <Features />
     </main>
   )
 }
